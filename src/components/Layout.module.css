@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: #222;
+}
+
+.navItem {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover {
+    color: #ff3d00; 
+}
+
+.active {
+    color: #ff3d00; 
+    text-decoration: none;
+}
